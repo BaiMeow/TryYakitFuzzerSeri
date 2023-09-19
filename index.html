@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    </head>
+<body>
+    <form action="/" method="post">
+        <input name="file">
+        <input hidden name="csrf" value="{{ .csrf }}">
+        <button type="submit">Submit</button>
+    </form>
+    <div>
+        try input "test" and submit it.
+    </div>
+    </body>
+</html>
